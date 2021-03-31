@@ -7,10 +7,10 @@ $capsule = new Manager;
   
 $is_development = @file_get_contents('development')!==false;
 
-$database = !$is_development?'sql10393817':'phpcrud';
-$username = !$is_development?'sql10393817':'root';
-$password = !$is_development?'FeWCITfUUr':'root';
-$host =     !$is_development?'sql10.freemysqlhosting.net':'db';
+$database = !$is_development?'db_a71d65_sql1039':'phpcrud';
+$username = !$is_development?'a71d65_sql1039':'root';
+$password = !$is_development?'trinta30':'root';
+$host =     !$is_development?'mysql5030.site4now.net':'db';
 
 $capsule->addConnection([
     'driver'    => 'mysql',
